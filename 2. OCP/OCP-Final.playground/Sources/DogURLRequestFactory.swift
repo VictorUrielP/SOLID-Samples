@@ -1,10 +1,10 @@
 import Foundation
 
-public final class DogsURLRequestFactory {
+public final class DogsURLRequestFactory: URLRequestFactory {
     
     private let hostName: String
     
-    init(hostName: String) {
+    public init(hostName: String) {
         self.hostName = hostName
     }
     

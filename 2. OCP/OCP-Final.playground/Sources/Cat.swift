@@ -1,6 +1,7 @@
 import Foundation
 
-public struct Dog: Decodable {
+public struct Cat: Decodable {
     let id: Int
     let breed: String
+    let size: String
 }

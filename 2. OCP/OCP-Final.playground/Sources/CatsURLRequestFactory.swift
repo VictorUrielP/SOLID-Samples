@@ -1,17 +1,16 @@
 import Foundation
 
-public final class DogsURLRequestFactory {
+public final class CatsURLRequestFactory: URLRequestFactory {
     
     private let hostName: String
     
-    init(hostName: String) {
+    public init(hostName: String) {
         self.hostName = hostName
     }
     
     public func makeUrlRequest() -> URLRequest {
-        let url = URL(string: "\(hostName)/dogs")!
+        let url = URL(string: "\(hostName)/cats")!
         let request = URLRequest(url: url)
-
         return request
     }
 }

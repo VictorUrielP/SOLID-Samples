@@ -12,6 +12,7 @@ import Foundation
  
  - ¿Cuáles son las funciones actuales de este módulo? ¿Tiene más de una función?
  - ¿Cuáles son las posibles razones por las que este módulo cambiaría?
+ - Hay al menos 2 responsabilidades
 */
 
 struct Dog: Decodable {

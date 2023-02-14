@@ -7,7 +7,7 @@ import UIKit
  - También creamos una implementación específica llamada `UserDefaultsSaver`que refleja mejor el comportamiento del código guardando datos en los User Defaults.
  
  Principios que se estaban rompiendo en la solución inicial:
- - 1. SRP: Ya que `LocalFileFetcher` tenía la responsabilidad adicional de guardar datos en los `UserDefaults`, algo que además era poco intuitivo ya que este fetcher que debería tener funcionalidad relacionada a archivos locales.
+ - 1. SRP: Ya que `LocalFileFetcher` tenía la responsabilidad adicional de guardar datos en los `UserDefaults`, algo que además era poco intuitivo ya que este fetcher  debería tener funcionalidad relacionada a archivos locales.
  - 2. LSP: Ya que la clase `URLSessionFetcher` tenía un método sin implementación, por que que esta clase no era sustituíble en los clientes de `Saver` y podría romper su funcionalidad.
  - 3. ISP: Finalmente detectamos que el problema era que la interfaz `Fetcher` tenía un método adicional no necesariamente relacionado a su funcionalidad original o a su dominio.
 

@@ -12,7 +12,7 @@ import UIKit
  Instrucciones:
  
  - Identifica los principios de SOLID que se están rompiendo en este PR.
- - Utiliza el ISP ayudarle a tu compañero a resolver los problemas identificados.
+ - Utiliza el ISP para ayudarle a tu compañero a resolver los problemas identificados.
 
 */
 

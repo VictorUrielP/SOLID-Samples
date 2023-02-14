@@ -6,7 +6,7 @@ import UIKit
  Te han solicitado que agregues una nueva pantalla con una lista de gatitos 🐱.
  
  Para ello te basaste en el código de `DogsAPI` y creaste `CatsAPI` pero has notado 2 cosas:
- - 1. El codigo de `CatsAPI` cumple con la misma funcionalidad de `catsAPI`.
+ - 1. El codigo de `CatsAPI` cumple con la misma funcionalidad de `DogsAPI`.
  - 2. El código que usas para decodificar tus modelos también es muy parecido.
  
  Ambas clases están duplicadas y te preguntas:

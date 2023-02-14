@@ -5,7 +5,7 @@ import UIKit
  
  Volvamos a nuestro URLSessionFetcher. Tu manager te ha solicitado agregar una caché de datos para los usuarios que no tienen buen internet.
 
- Entonces, has creado un protocolo `Fetcher` que implementa el método `fetchData` de `URLSessionFetcher`. Esta es una buena idea ya el código que funciona con `URLSessionFetcher` puede funcionar con `Fetcher` porque que la API permanece igual.
+ Entonces, has creado un protocolo `Fetcher` que implementa el método `fetchData` de `URLSessionFetcher`. Esta es una buena idea ya que el código que funciona con `URLSessionFetcher` puede funcionar con `Fetcher` porque que la API permanece igual.
 
  Te han dicho que es una funcionalidad urgente, así que has creado rápidamente la función nueva clase `LocalFileFetcher: Fetcher` que obtiene datos de un archivo de caché y has escrito rápidamente la función `fetchData`.
  
@@ -19,7 +19,7 @@ import UIKit
  
  Pistas:
  
- - Recuerda la relga de `Exeptions` dice que el método de subtipo tiene que arrojar las mismas excepciones del supertipo.
+ - Recuerda la regla de `Exeptions` dice que el método de subtipo tiene que arrojar las mismas excepciones del supertipo.
 */
 
 protocol Fetcher {
